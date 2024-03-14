@@ -1,8 +1,6 @@
 {
-  // package name
   "name": "buzasadam/yii2-ar-log",
 
-  // package type
   "type": "yii2-extension",
 
   "description": "Log user's AR operations in database",
@@ -22,12 +20,10 @@
     }
   ],
 
-  // package dependencies
   "require": {
     "yiisoft/yii2": "^2.0.17"
   },
 
-  // class autoloading specs
   "autoload": {
     "psr-4": {
       "buzasadam\\yii2ARLog\\": "src"
