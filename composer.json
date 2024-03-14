@@ -1,0 +1,36 @@
+{
+  // package name
+  "name": "buzasadam/yii2-ar-log",
+
+  // package type
+  "type": "yii2-extension",
+
+  "description": "Log user's AR operations in database",
+  "keywords": ["yii2", "ar", "log"],
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "",
+    "forum": "",
+    "wiki": "",
+    "irc": "",
+    "source": ""
+  },
+  "authors": [
+    {
+      "name": "Adam Buzas",
+      "email": "foo@bar.com"
+    }
+  ],
+
+  // package dependencies
+  "require": {
+    "yiisoft/yii2": "^2.0.17"
+  },
+
+  // class autoloading specs
+  "autoload": {
+    "psr-4": {
+      "buzasadam\\yii2ARLog\\": "src"
+    }
+  }
+}
